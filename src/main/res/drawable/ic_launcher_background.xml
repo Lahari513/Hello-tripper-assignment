@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="550dp"
+          android:scaleType="fitStart"
+          android:src="@drawable/pic1"
+          ></ImageView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/bali"
+          android:textColor="#050000"
+          android:textSize="30sp"
+          android:textStyle="bold"></TextView>
+
+      <RatingBar
+          style="@style/Widget.AppCompat.RatingBar.Indicator"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:numStars="5"
+          android:progress="@android:integer/status_bar_notification_info_maxnum"
+          android:progressTint="#FFEB3B"></RatingBar>
+
+      <ImageView
+          android:layout_width="184dp"
+          android:layout_height="55dp"
+          android:src="@drawable/pic2a"></ImageView>
+
+      <com.borjabravo.readmoretextview.ReadMoreTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/amaranth"
+          android:text="@string/t1"
+          android:textColor="#040000"
+          android:textSize="18sp"
+          app:colorClickableText="@android:color/holo_blue_bright"
+          app:trimCollapsedText="@string/read_less"
+          app:trimExpandedText="@string/read_more"
+          app:trimLength="20"
+          app:trimMode="trimModeLength">
+
+      </com.borjabravo.readmoretextview.ReadMoreTextView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/amaranth"
+          android:text="@string/t1"
+          android:textColor="#020000"
+          android:textSize="18sp"></TextView>
+
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/pic4">
+      </ImageView>
+  </LinearLayout>
+</ScrollView>

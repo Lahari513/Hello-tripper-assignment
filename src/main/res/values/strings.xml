@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tripperr</string>
+    <string name="bali">Bali</string>
+    <string name="t1">\nBali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies,
+        beaches and coral reefs. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur, Jimbaran
+        and Nusa Dua are popular resort towns. The island is also known for its yoga and meditation retreats and if you are
+        a nature lover you will be blessed with magnificent jungle and cliffs views.
+
+    From Mauritius to Bali, you can either transit via Singapore or to Dubai. The choice is yours.
+        Their local currency is the Rupiah – A euro is about 17,000 Rupiah. The Balinese population is about 3.6 million,
+        mostly Hindus. Try to avoid travelling to Bali between October – March, it is the rainy season, the Monsoon.\n</string>
+    <string name="pictures_n">Pictures</string>
+    <string name="places_like_bali_n">Places like Bali</string>
+    <string name="write_a_review"><a href="">Write a review</a></string>
+    <string name="place_details">Place details</string>
+    <string name="_49_people_reviewed_this">49+ people reviewed this</string>
+
+</resources>
